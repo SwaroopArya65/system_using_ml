@@ -19,6 +19,3 @@ def heart(request):
 
 def parkinsons(request):
     return render(request, 'parkinsons.html')
-
-def dashboard(request):
-    return render(request, 'dashboard.html')
