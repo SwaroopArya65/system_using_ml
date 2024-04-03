@@ -19,3 +19,6 @@ def heart(request):
 
 def parkinsons(request):
     return render(request, 'parkinsons.html')
+
+def diabetes(request):
+    return render(request, 'diabetes.html')
