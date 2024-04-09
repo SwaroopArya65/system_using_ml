@@ -25,7 +25,7 @@
 
 
 body::-webkit-scrollbar {
-    width: 0.5rem;
+    /* width: 0.5rem; */
     height: 0.5rem;
     background-color: #11101d;
 }
@@ -292,7 +292,7 @@ body:hover::-webkit-scrollbar-thumb {
 
 .home-section {
     position: relative;
-    background: #E4E9F7;
+    /* background: #E4E9F7; */
     height: 100%;
     left: 260px;
     width: calc(100% - 260px);
