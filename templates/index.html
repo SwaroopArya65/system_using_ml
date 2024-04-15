@@ -8,11 +8,11 @@
     <ul class="menu">
       <li><a href="/">Home</a></li>
       <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
+      {% comment %} <li><a href="/contact">Contact</a></li> {% endcomment %}
     </ul>
     <div class="search">
       <ul class="menu">
-        <li><a href="/diabetes">Checkup</a></li>
+        <li><a href="/diabetes">CHECKUP</a></li>
       </ul>
     </div>
   </header>
@@ -21,7 +21,7 @@
   <div class="carousel">
     <!-- list item -->
     <div class="list">
-      <div class="item">
+      {% comment %} <div class="item">
         <img src="/static/image/1.1.png">
         <div class="content">
           <div class="author">DP SYSTEM</div>
@@ -38,8 +38,8 @@
             <button><a href="/parkinsons" style="color: white;">CHECKUP</a></button>
           </div>
         </div>
-      </div>
-      <div class="item">
+      </div> {% endcomment %}
+      {% comment %} <div class="item">
         <img src="/static/image/7.jpg">
         <div class="content">
           <div class="author">DP SYSTEM</div>
@@ -55,27 +55,26 @@
             <button><a href="/heart" style="color: white;">CHECKUP</a></button>
           </div>
         </div>
-      </div>
+      </div> {% endcomment %}
       <div class="item">
-        <img src="/static/image/2.1.png">
+        <img src="/static/image/222.png">
         <div class="content">
-          <div class="author">DP SYSTEM</div>
+          <div class="author" style="color:rebeccapurple;">DP SYSTEM</div>
           <div class="title">YOUR HEALTH, YOUR PRIORITY.</div>
-          <div class="topic">DIABETES DISEASES</div>
+          <div class="topic">CHECK BODYHEALTH</div>
           <div class="des">
-            A diabetes diagnosis system uses machine learning and medical data for accurate detection,
-            prediction,
-            and personalized treatment planning, leading to better outcomes and improved health.
+            Regular health checks empower individuals to detect and address health concerns early, promoting longevity and vitality. 
+            Prioritizing routine assessments acknowledges the body's importance, fostering balance and well-being in both physical and mental health.
           </div>
           <div class="buttons">
-            <button><a href="https://www.cdc.gov/diabetes/basics/index.html">SEE MORE</a></button>
-            <button><a href="/diabetes" style="color: white;">CHECKUP</a></button>
+            {% comment %} <button><a href="https://www.cdc.gov/diabetes/basics/index.html">SEE MORE</a></button> {% endcomment %}
+            <button><a href="/diabetes" style="color: white;">CHECK HEALTH</a></button>
           </div>
         </div>
       </div>
     </div>
     <!-- list thumnail -->
-    <div class="thumbnail">
+    {% comment %} <div class="thumbnail">
       <div class="item">
         <img src="/static/image/1.1.png" />
         <div class="content">
@@ -103,14 +102,14 @@
                     </div> -->
         </div>
       </div>
-    </div>
+    </div> {% endcomment %}
     <!-- next prev -->
 
-    <div class="arrows">
+    {% comment %} <div class="arrows">
       <button id="prev">
         < </button>
           <button id="next">></button>
-    </div>
+    </div> {% endcomment %}
     <!-- time running -->
     <div class="time"></div>
   </div>
@@ -118,29 +117,44 @@
   <!-- Step for Checkup Section -->
   <div class="checkup-step">
     <h1>
-      Checkup YourSelf in few Click
+      ABOUT US
       <div style="
             height: 4px;
             width: 77px;
             background-color: red;
             border-radius: 2px;
             margin-top: 5px;
+            margin-left: 41.9%;
           "></div>
     </h1>
     <div class="step">
+      <img src="/static/image/2.jpg" />
       <div class="checkup-details">
-        <p class="stepcount">Step - 1</p>
-        <h1>Click on Checkup Button</h1>
         <p class="description">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi,
-          rem magnam nesciunt minima placeat, itaque eum neque officiis unde,
-          eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut
-          doloribus non numquam.
+          <h1 class="heading" style="text-align: justify; font-size: 2rem; color: black;">Click on Checkup Button</h1>
+          <p style="font-size: 1.3rem; color: #464646; font-family: serif;">
+            It Is A Medical Service That Uses Ml & AI To Check You Body Health.<br><br>
+
+            The Main Goal Of This Project Is To Provide An Easy And Convenient Way For People To Check Their 
+            Health Status By Using The Latest Technology In The Field We Use The Latest Technology In Health-
+            care And Artificial Intelligence (AI) To Provide You With Personalized Advice On Your Overall 
+            Health, As Well As Specific Recommendations For Conditions Such As Diabetes, Heart Disease, Or 
+            Parkinson Health Issues. Our Team Of Experts Will Work Closely With You To Understand Your Needs 
+            And Develop An Heart Disease, Or Parkinson Health Issues.
+          </p>
+          <button class="btn" style="color: white;
+          border: none;
+          padding: 11px;
+          background: #f1683a;
+          border-radius: 3px;
+          letter-spacing: 3px;
+          cursor: pointer;
+      }"><a href="/about" style="color: white;">SEE MORE</a></button>
         </p>
       </div>
-      <img src="/static/image/11.png" />
+      
     </div>
-    <div class="step">
+    {% comment %} <div class="step">
       <img src="/static/image/22.png" />
       <div class="checkup-details">
         <p class="stepcount">Step - 2</p>
@@ -165,12 +179,12 @@
         </p>
       </div>
       <img src="/static/image/11.png" />
-    </div>
+    </div> {% endcomment %}
   </div>
 
   <!-- Footer Section start -->
   <footer>
-    <hr>
+    {% comment %} <hr>
     <div class="footer-container">
       <!--**comoany-box**-->
       <div class="footer-company-box">
@@ -217,7 +231,7 @@
           <li><a href="#">Orthopaedics Services</a></li>
         </ul>
       </div>
-    </div>
+    </div> {% endcomment %}
 
     <!--**bottom**********************-->
     <div class="footer-bottom">
